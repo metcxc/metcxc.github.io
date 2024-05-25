@@ -1,0 +1,21 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+a img {
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+a img:hover {
+    transform: scale(1.1);
+}
