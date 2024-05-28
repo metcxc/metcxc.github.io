@@ -5,20 +5,3 @@ body {
     padding: 0;
     text-align: center;
 }
-<style>
-  .fatlink {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .fatlink:hover {
-    background-color: #0056b3;
-  }
-</style>
