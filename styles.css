@@ -1,7 +1,42 @@
 body {
-    background-color: #000000; 
+    background-color: black; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
 }
+
+heading  {
+color: white;
+font-family: "kanit";
+text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  animation: rgb-animation 6s infinite;
+  font-family: "Cedarville Cursive";
+}
+
+@keyframes rgb-animation {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+
+  25% {
+    color: rgb(0, 255, 0);
+  }
+
+  50% {
+    color: rgb(0, 0, 255);
+  }
+
+  75% {
+    color: rgb(255, 255, 0);
+  }
+
+  100% {
+    color: rgb(255, 0, 0);
+  }
